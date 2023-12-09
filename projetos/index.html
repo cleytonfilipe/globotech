@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icones/icons8-globo-80.png"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>GLOBOTECH | Projetos</title>
+</head>
+<body>
+    <header id="navbar">
+        <h2>GLOBOTECH</h2>
+
+        <nav class="navmenu">
+            <a href="/index.html">Inicio</a>
+            <a href="index.html">Projetos</a>
+            <a href="/cadastro/index.html">Cadastro</a>
+        </nav>
+    </header>
+
+    <section class="sec-01">
+        <div class="container">
+            <h2 class="main-title">Projetos</h2>
+            <div class="content">
+                <div class="image">
+                    <img src="imagens/0e8544fbaf9a526a7c52f229a432af754ca034be.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h3>Jogos Digitais</h3>
+                    <p>Jogos digitais são formas de entretenimento interativas que envolvem a participação de jogadores por meio de dispositivos eletrônicos, como computadores, consoles de videogame, smartphones ou tablets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-02">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="imagens/487_autoestima_filtros-fotos-celular.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Apps Mobile</h4>
+                    <p>
+                        Aplicativos móveis, ou apps, são programas desenvolvidos para serem executados em dispositivos móveis, como smartphones e tablets. Esses aplicativos oferecem uma variedade de funcionalidades, desde entretenimento e redes sociais até produtividade e utilitários.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-03">
+        <div class="container">
+            <div class="content">
+                <div class="image">
+                    <img src="imagens/ecommerce-seo-tips.jpg" alt="">
+                </div>
+                <div class="text-box">
+                    <h3>E-commerce</h3>
+                    <p>O comércio eletrônico, ou e-commerce, refere-se à prática de comprar e vender produtos e serviços pela internet. Essa forma de comércio permite que consumidores e empresas realizem transações online, sem a necessidade de presença física em uma loja. Os sites de e-commerce proporcionam uma plataforma virtual onde os consumidores podem navegar por produtos, fazer compras, realizar pagamentos e, muitas vezes, receber entrega dos itens adquiridos em suas residências.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay:400
+        });
+
+        ScrollReveal().reveal('.main-title, h3 , h4', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.sec-02 .image', { delay: 500, origin: 'top' });
+    </script>
+    
+    <footer>
+        <ul class="social-icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+        <p>©2023 GLOBOTECH | Todos os Direitos Reservados</p>
+    </footer>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

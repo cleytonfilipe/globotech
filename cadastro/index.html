@@ -1,0 +1,73 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icones/icons8-globo-80.png"/>
+    <title>GLOBOTECH | Cadastro</title>
+</head>
+<body>
+    <header id="navbar">
+        <h2>GLOBOTECH</h2>
+
+        <nav class="navmenu">
+            <a href="/index.html">Inicio</a>
+            <a href="/projetos/index.html">Projetos</a>
+            <a href="index.html">Cadastro</a>
+        </nav>
+    </header>
+
+    <section class="container">
+        <h2>Cadastro</h2>
+        <form id="cadastroForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="feedback">
+            <h2>Feedback</h2>
+            <p>Dê sua opinião sobre o que pode ser melhorado no site:</p>
+            <textarea id="feedback" rows="4"></textarea>
+            <button onclick="enviarFeedback()">Enviar Feedback</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+        <p>©2023 GLOBOTECH | Todos os Direitos Reservados</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
